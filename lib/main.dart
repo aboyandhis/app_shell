@@ -1,8 +1,7 @@
-import 'package:appshell/providers/app.dart';
-import 'package:appshell/providers/wordpress.dart';
 import 'package:appshell/screens/home.dart';
 import 'package:flutter/material.dart';
-
+import 'package:appshell/providers/app.dart';
+import 'package:appshell/providers/content.dart';
 import 'package:provider/provider.dart';
 
 void main() {

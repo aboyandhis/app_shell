@@ -1,4 +1,4 @@
-import 'package:appshell/providers/wordpress.dart';
+import 'package:appshell/providers/content.dart';
 import 'package:appshell/widgets/page/page.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -9,7 +9,7 @@ class Home extends StatelessWidget {
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
     final content = Provider.of<ContentProvider>(context);
-    content.getContent();
+    //content.getContent();
     return PageWidget(
         child: Center(
       child: Column(
